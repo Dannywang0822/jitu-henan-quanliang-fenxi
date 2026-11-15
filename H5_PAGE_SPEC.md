@@ -3,6 +3,7 @@
 状态：2026-11-16 00:04（Asia/Shanghai）Danny 已点头做 H5。本文件是本轮页面契约，不改已锁的数据边界、测试/正式隔离和账号规则。
 飞书登录、CloudBase 开通、正式层晋升仍未授权，本轮不做。
 2026-11-16（Asia/Shanghai）Danny 决定将本仓库改为公开，并授权用 GitHub Pages 仅发布 `h5/`。在线地址：https://dannywang0822.github.io/jitu-henan-quanliang-fenxi/ 。飞书登录、国内 CloudBase、正式层晋升仍未授权。
+2026-11-16 01:24（Asia/Shanghai）Danny 要求撤掉在线链接。GitHub Pages 已关闭，在线地址已失效，本地预览保留。飞书登录、国内 CloudBase、正式层晋升仍未授权。
 
 ## 1. 目标
 

@@ -4,9 +4,7 @@
 
 ## 打开方式
 
-在线预览：<https://dannywang0822.github.io/jitu-henan-quanliang-fenxi/>
-
-也可以在本目录启动本地服务，以便读取 `data/`：
+GitHub Pages 已关闭，在线链接已撤掉。请在本目录启动本地服务，以便读取 `data/`：
 
 ```bash
 cd h5
