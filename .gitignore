@@ -6,3 +6,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# 测试层待处理包（不要把上传内容提交进库）
+test_layer/inbox/**
+!test_layer/inbox/README.md
