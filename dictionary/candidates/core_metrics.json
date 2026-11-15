@@ -1,7 +1,7 @@
 {
   "report_id": "core_metrics",
-  "generated_at": "2026-11-15T23:38:15.964763+08:00",
   "informal_mark": "测试，非正式",
+  "recognition_source": "测试夹具:core_metrics",
   "fields": [
     {
       "field_id": "揽收量_当日",

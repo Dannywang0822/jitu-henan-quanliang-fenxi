@@ -3,15 +3,12 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from kernel.detail import is_detail_column, reject_detail_column
 from kernel.fields import parse_field_id
 from kernel.isolation import FormalWriteForbidden, write_text_from_test_layer
 from data_interface.ingest import FixtureReport
-
-SHANGHAI = timezone(timedelta(hours=8))
 
 
 def recognize_fields(
@@ -57,8 +54,8 @@ def recognize_fields(
 
     payload = {
         "report_id": report.report_id,
-        "generated_at": datetime.now(SHANGHAI).isoformat(),
         "informal_mark": "测试，非正式",
+        "recognition_source": f"测试夹具:{report.report_id}",
         "fields": recognized,
         "rejected": rejected,
     }

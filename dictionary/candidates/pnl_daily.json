@@ -1,7 +1,7 @@
 {
   "report_id": "pnl_daily",
-  "generated_at": "2026-11-15T23:38:15.965206+08:00",
   "informal_mark": "测试，非正式",
+  "recognition_source": "测试夹具:pnl_daily",
   "fields": [
     {
       "field_id": "当日收件",
