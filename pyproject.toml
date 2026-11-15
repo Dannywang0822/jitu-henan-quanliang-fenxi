@@ -1,0 +1,14 @@
+[project]
+name = "jitu-henan-quanliang-fenxi"
+version = "0.1.0"
+description = "极兔河南全量分析 · 决策中枢测试层内核"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["checks"]
+pythonpath = ["."]
+addopts = "-q"
