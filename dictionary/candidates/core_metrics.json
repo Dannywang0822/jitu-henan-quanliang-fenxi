@@ -1,0 +1,512 @@
+{
+  "report_id": "core_metrics",
+  "generated_at": "2026-11-15T23:38:15.964763+08:00",
+  "informal_mark": "测试，非正式",
+  "fields": [
+    {
+      "field_id": "揽收量_当日",
+      "standard_name": "揽收量",
+      "unit": "万票",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "揽收量_11月累计",
+      "standard_name": "揽收量11月累计",
+      "unit": "万票",
+      "caliber": "累计日均",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "揽收量_目标",
+      "standard_name": "揽收量目标",
+      "unit": "万票",
+      "caliber": "目标（累计日均口径对照）",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "市场件量_当日",
+      "standard_name": "市场",
+      "unit": "万票",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "市场件量_11月累计",
+      "standard_name": "市场11月累计",
+      "unit": "万票",
+      "caliber": "累计日均",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "市场件量_目标",
+      "standard_name": "市场目标",
+      "unit": "万票",
+      "caliber": "目标（累计日均口径对照）",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "云仓件量_当日",
+      "standard_name": "云仓（不含三方）",
+      "unit": "万票",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "云仓件量_11月累计",
+      "standard_name": "云仓11月累计（不含三方）",
+      "unit": "万票",
+      "caliber": "累计日均",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "云仓件量_目标",
+      "standard_name": "云仓目标（不含三方）",
+      "unit": "万票",
+      "caliber": "目标（累计日均口径对照）",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "代操作_当日",
+      "standard_name": "代操作",
+      "unit": "万票",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "千帆_已完成",
+      "standard_name": "千帆已完成",
+      "unit": "项",
+      "caliber": "当年进度 2/27",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "千帆_目标项数",
+      "standard_name": "千帆目标项数",
+      "unit": "项",
+      "caliber": "期间目标项数",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "均重_当日",
+      "standard_name": "均重",
+      "unit": "公斤/票",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "均重_累计",
+      "standard_name": "均重累计",
+      "unit": "公斤/票",
+      "caliber": "11月累计均重",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "均重_目标",
+      "standard_name": "均重目标",
+      "unit": "公斤/票",
+      "caliber": "目标",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "大货_11日_T-1暂估",
+      "standard_name": "大货（T-1暂估）",
+      "unit": "万票",
+      "caliber": "T-1暂估",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-11",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "大货_12日_表上",
+      "standard_name": "大货（12日表上）",
+      "unit": "万票",
+      "caliber": "12日表上（非T-1暂估的对照行）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单公斤运力_核心指标_当日",
+      "standard_name": "单公斤运力（核心指标）",
+      "unit": "元/公斤",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单公斤运力_核心指标_累计",
+      "standard_name": "单公斤运力累计（核心指标）",
+      "unit": "元/公斤",
+      "caliber": "11月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单公斤运力_核心指标_目标",
+      "standard_name": "单公斤运力目标（核心指标）",
+      "unit": "元/公斤",
+      "caliber": "目标",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单公斤运力_核心指标_10月",
+      "standard_name": "单公斤运力10月（核心指标）",
+      "unit": "元/公斤",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票人力_考核_当日",
+      "standard_name": "单票人力（考核）",
+      "unit": "元/票",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票人力_考核_11日",
+      "standard_name": "单票人力（考核）11日",
+      "unit": "元/票",
+      "caliber": "上一营业日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-11",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票人力_考核_累计",
+      "standard_name": "单票人力（考核）累计",
+      "unit": "元/票",
+      "caliber": "11月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票人力_考核_目标",
+      "standard_name": "单票人力（考核）目标",
+      "unit": "元/票",
+      "caliber": "目标",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票人力_考核_10月",
+      "standard_name": "单票人力（考核）10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "KPI_当日",
+      "standard_name": "KPI",
+      "unit": "分",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "KPI_目标",
+      "standard_name": "KPI目标",
+      "unit": "分",
+      "caliber": "目标",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "KPI_月累计",
+      "standard_name": "KPI月累计",
+      "unit": "分",
+      "caliber": "月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "出港准点_当日",
+      "standard_name": "出港准点",
+      "unit": "%",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "出港准点_目标",
+      "standard_name": "出港准点目标",
+      "unit": "%",
+      "caliber": "目标",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "进港转运_当日",
+      "standard_name": "进港转运",
+      "unit": "%",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "签收准点_当日",
+      "standard_name": "签收准点",
+      "unit": "%",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "轨迹断更_当日",
+      "standard_name": "轨迹断更",
+      "unit": "票",
+      "caliber": "当日（字段名是率，实际是票数）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "七星潭排名_当日",
+      "standard_name": "七星潭排名",
+      "unit": "名",
+      "caliber": "当日（字段名是履约率，实际是排名）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "桃花岛排名_当日",
+      "standard_name": "桃花岛排名",
+      "unit": "名",
+      "caliber": "当日（字段名是履约率，实际是排名）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-12",
+      "recognition_source": "测试夹具:core_metrics",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    }
+  ],
+  "rejected": []
+}

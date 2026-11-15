@@ -1,6 +1,6 @@
 # 五层拦截 · 搭建前门禁
 
-状态：2026-11-15 23:24（Asia/Shanghai）Danny 说「开始搭吧」，视为正式搭建点头。本文件按「五层拦截技能」（pstack 适配版）在动手写模型之前执行。门禁未落实前，不写模型代码、不接飞书、不请 H5 Bot、不按部门新建 bot、不把第一版预览晋升正式层。
+状态：2026-11-15（Asia/Shanghai）Danny 已点头正式搭建，五层门禁已执行。第一轮测试层内核、夹具与固定检查入口 `checks/run.sh` 已落地；正式输出层与正式字典仍为空。飞书接入、请 H5 Bot、按部门新建 bot，以及把测试包晋升正式层，仍须另报。
 日期：2026-11-15（Asia/Shanghai）
 方法：五层拦截（pstack 适配版）
 
@@ -118,9 +118,9 @@ jitu-henan-quanliang-fenxi/
 
 固定命令，不每次现写脚本（落地后把确切命令回写到本节）：
 
-- `launch.command` := 仓库内检查入口（计划：`checks/run.sh` 或等价 pytest 入口）
+- `launch.command` := `checks/run.sh`
 - `launch.cwd` := `/workspace/jitu-henan-quanliang-fenxi`
-- `launch.ready` := 检查入口可执行，且对空的正式层、三张夹具的拒错与口径约束给出可观察结果
+- `launch.ready` := `checks/run.sh` 退出码 0。该入口会先重放测试层非正式输出（写入 `test_layer/outputs/`，不写正式层），再运行 `pytest checks`。可观察：正式层与正式字典为空、三张夹具通过校验、已知错法被拒绝、两层非正式输出齐全。
 
 验证范围先覆盖真实功能的最小闭环：读入一张已交汇总 → 校验与识别 → 测试层测算 → 两层输出带非正式标记 → 正式层仍为空。政策前/后对比、字段识别报告、整包晋升演练（未点头时必须失败）随后补进同一入口。证据写入 `evidence/`，字段包括：requirement、tested_commit、tested_worktree_diff、command_or_action、relevant_environment、expected_result、observed_result、exit_code_if_applicable、artifact_paths、status（PASS/FAIL/NOT_RUN）、blocker_if_any。
 

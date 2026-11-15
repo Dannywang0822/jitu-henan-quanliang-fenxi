@@ -1,0 +1,876 @@
+{
+  "report_id": "pnl_daily",
+  "generated_at": "2026-11-15T23:38:15.965206+08:00",
+  "informal_mark": "测试，非正式",
+  "fields": [
+    {
+      "field_id": "当日收件",
+      "standard_name": "8日收件",
+      "unit": "万票",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "当日净利",
+      "standard_name": "8日净利",
+      "unit": "万元",
+      "caliber": "当日",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "累计收件",
+      "standard_name": "累计收件",
+      "unit": "万票",
+      "caliber": "月累计件数",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "累计收件日均",
+      "standard_name": "累计收件日均",
+      "unit": "万票",
+      "caliber": "累计日均（由月累计件数÷已过天数）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "预算日均收件",
+      "standard_name": "预算日均收件",
+      "unit": "万票",
+      "caliber": "预算日均",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "累计净利",
+      "standard_name": "累计净利",
+      "unit": "万元",
+      "caliber": "月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "预算累计净利",
+      "standard_name": "预算累计净利",
+      "unit": "万元",
+      "caliber": "预算月累计",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "时间进度",
+      "standard_name": "时间进度",
+      "unit": "比率",
+      "caliber": "约 27%（8/30）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "已过天数",
+      "standard_name": "已过天数",
+      "unit": "天",
+      "caliber": "月至当日已过天数",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "本月日历天数",
+      "standard_name": "本月日历天数",
+      "unit": "天",
+      "caliber": "2026-11 日历天数",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "收入累计",
+      "standard_name": "收入累计",
+      "unit": "万元",
+      "caliber": "月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "收入预算",
+      "standard_name": "收入预算",
+      "unit": "万元",
+      "caliber": "预算月累计",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "成本累计",
+      "standard_name": "成本累计",
+      "unit": "万元",
+      "caliber": "月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "成本预算",
+      "standard_name": "成本预算",
+      "unit": "万元",
+      "caliber": "预算月累计",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "费用累计",
+      "standard_name": "费用累计",
+      "unit": "万元",
+      "caliber": "月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "费用预算",
+      "standard_name": "费用预算",
+      "unit": "万元",
+      "caliber": "预算月累计",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "毛利累计",
+      "standard_name": "毛利累计",
+      "unit": "万元",
+      "caliber": "月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "毛利预算",
+      "standard_name": "毛利预算",
+      "unit": "万元",
+      "caliber": "预算月累计",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "运营管理净额累计",
+      "standard_name": "运营管理净额累计",
+      "unit": "万元",
+      "caliber": "月累计",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "运营管理净额预算",
+      "standard_name": "运营管理净额预算",
+      "unit": "万元",
+      "caliber": "预算月累计",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "出港四费_累计",
+      "standard_name": "出港四费",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "出港四费_预算",
+      "standard_name": "出港四费预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "出港四费_10月",
+      "standard_name": "出港四费10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "激励补贴_累计",
+      "standard_name": "激励补贴",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "激励补贴_预算",
+      "standard_name": "激励补贴预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "激励补贴_10月",
+      "standard_name": "激励补贴10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "市场直客净额_累计",
+      "standard_name": "市场直客净额",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "市场直客净额_预算",
+      "standard_name": "市场直客净额预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "市场直客净额_10月",
+      "standard_name": "市场直客净额10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "揽件净收入_累计",
+      "standard_name": "揽件净收入",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "揽件净收入_预算",
+      "standard_name": "揽件净收入预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "揽件净收入_10月",
+      "standard_name": "揽件净收入10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "末端派费_累计",
+      "standard_name": "末端派费",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "末端派费_预算",
+      "standard_name": "末端派费预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "末端派费_10月",
+      "standard_name": "末端派费10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "收件净额_累计",
+      "standard_name": "收件净额",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "收件净额_预算",
+      "standard_name": "收件净额预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "收件净额_10月",
+      "standard_name": "收件净额10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票运力_累计",
+      "standard_name": "单票运力",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票运力_预算",
+      "standard_name": "单票运力预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票运力_10月",
+      "standard_name": "单票运力10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票操作人力成本_累计",
+      "standard_name": "单票操作人力成本",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票操作人力成本_预算",
+      "standard_name": "单票操作人力成本预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票操作人力成本_10月",
+      "standard_name": "单票操作人力成本10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "收件边际贡献_累计",
+      "standard_name": "收件边际贡献",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "收件边际贡献_预算",
+      "standard_name": "收件边际贡献预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "收件边际贡献_10月",
+      "standard_name": "收件边际贡献10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "派件费净额_累计",
+      "standard_name": "派件费净额",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "派件费净额_预算",
+      "standard_name": "派件费净额预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "派件费净额_10月",
+      "standard_name": "派件费净额10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "操作人效_累计",
+      "standard_name": "操作人效",
+      "unit": "票/人/天",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "操作人效_预算",
+      "standard_name": "操作人效预算",
+      "unit": "票/人/天",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "操作人效_10月",
+      "standard_name": "操作人效10月",
+      "unit": "票/人/天",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票净利_累计",
+      "standard_name": "单票净利",
+      "unit": "元/票",
+      "caliber": "月累计单票（或对应口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票净利_预算",
+      "standard_name": "单票净利预算",
+      "unit": "元/票",
+      "caliber": "预算",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票净利_10月",
+      "standard_name": "单票净利10月",
+      "unit": "元/票",
+      "caliber": "10月",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "操作人效达成率_印刷",
+      "standard_name": "操作人效达成率（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷达成率 3127/3635",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单票净利达成率_印刷",
+      "standard_name": "单票净利达成率（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷达成率",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单公斤运力_损益日报_累计",
+      "standard_name": "单公斤运力（含自营，损益口径）累计",
+      "unit": "元/公斤",
+      "caliber": "月累计（含自营，损益口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单公斤运力_损益日报_预算",
+      "standard_name": "单公斤运力预算（损益口径）",
+      "unit": "元/公斤",
+      "caliber": "预算（含自营，损益口径）",
+      "role": "目标",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单公斤运力_损益日报_10月",
+      "standard_name": "单公斤运力10月（损益口径）",
+      "unit": "元/公斤",
+      "caliber": "10月（含自营，损益口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-10-31",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "单公斤运力_损益日报_当日",
+      "standard_name": "单公斤运力8日（损益口径）",
+      "unit": "元/公斤",
+      "caliber": "当日（含自营，损益口径）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "2026-11-08",
+      "recognition_source": "测试夹具:pnl_daily",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    }
+  ],
+  "rejected": []
+}

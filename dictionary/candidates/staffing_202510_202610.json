@@ -1,0 +1,568 @@
+{
+  "report_id": "staffing_202510_202610",
+  "generated_at": "2026-11-15T23:38:15.964314+08:00",
+  "informal_mark": "测试，非正式",
+  "fields": [
+    {
+      "field_id": "编制_客服_202610",
+      "standard_name": "客服编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_客服_202510",
+      "standard_name": "客服编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_客服",
+      "standard_name": "客服编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_客服_印刷",
+      "standard_name": "客服编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_人资行政_202610",
+      "standard_name": "人资行政编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_人资行政_202510",
+      "standard_name": "人资行政编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_人资行政",
+      "standard_name": "人资行政编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_人资行政_印刷",
+      "standard_name": "人资行政编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_总经办_202610",
+      "standard_name": "总经办编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_总经办_202510",
+      "standard_name": "总经办编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_总经办",
+      "standard_name": "总经办编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_总经办_印刷",
+      "standard_name": "总经办编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_市场_202610",
+      "standard_name": "市场编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_市场_202510",
+      "standard_name": "市场编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_市场",
+      "standard_name": "市场编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_市场_印刷",
+      "standard_name": "市场编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_质控_202610",
+      "standard_name": "质控编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_质控_202510",
+      "standard_name": "质控编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_质控",
+      "standard_name": "质控编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_质控_印刷",
+      "standard_name": "质控编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_网络管理_202610",
+      "standard_name": "网络管理编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_网络管理_202510",
+      "standard_name": "网络管理编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_网络管理",
+      "standard_name": "网络管理编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_网络管理_印刷",
+      "standard_name": "网络管理编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_财务_202610",
+      "standard_name": "财务编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_财务_202510",
+      "standard_name": "财务编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_财务",
+      "standard_name": "财务编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_财务_印刷",
+      "standard_name": "财务编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_营运_202610",
+      "standard_name": "营运编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_营运_202510",
+      "standard_name": "营运编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_营运",
+      "standard_name": "营运编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_营运_印刷",
+      "standard_name": "营运编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_云仓_202610",
+      "standard_name": "云仓编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_云仓_202510",
+      "standard_name": "云仓编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_云仓",
+      "standard_name": "云仓编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_云仓_印刷",
+      "standard_name": "云仓编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_总计_202610",
+      "standard_name": "总计编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202610",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制_总计_202510",
+      "standard_name": "总计编制",
+      "unit": "人",
+      "caliber": "期末编制对照 202510",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202510",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制差额_总计",
+      "standard_name": "总计编制差额",
+      "unit": "人",
+      "caliber": "202610相对202510差额",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    },
+    {
+      "field_id": "编制增幅_总计_印刷",
+      "standard_name": "总计编制增幅（报表印刷）",
+      "unit": "%",
+      "caliber": "报表印刷增幅（四舍五入）",
+      "role": "数据",
+      "source_type_allowed": [
+        "Danny提供的汇总"
+      ],
+      "as_of_example": "202610",
+      "recognition_source": "测试夹具:staffing_202510_202610",
+      "status": "候选",
+      "confidence": "高（已交汇总夹具）"
+    }
+  ],
+  "rejected": []
+}
