@@ -214,3 +214,19 @@
   - `departments/营运/capacity.py`
 - `status`：PASS
 - `blocker_if_any`：（无）
+
+## 补记（可复现性）
+
+在 `27d07245f092e92c3cfa399d0ddff27758b4dc65` 上首次记录证据后，发现识别结果含墙钟 `generated_at`，重跑会弄脏工作区。已在 `54e78aa41c748c970e5e47d58bdc084a91802675` 去掉该时间戳。于该提交上重跑 `checks/run.sh`，退出码 0，工作区干净。
+
+- `requirement`：检查入口可复现：重跑不得因时间戳改写候选字典；全部检查仍通过，正式层仍空
+- `tested_commit`：54e78aa41c748c970e5e47d58bdc084a91802675
+- `tested_worktree_diff`：被测代码为 54e78aa41c748c970e5e47d58bdc084a91802675（相对 27d07245f092e92c3cfa399d0ddff27758b4dc65 仅去掉候选字典 generated_at，使 checks/run.sh 可复现）。检查重跑后工作区干净。本补记在检查通过后写入并单独提交。
+- `command_or_action`：checks/run.sh（在 54e78aa 上重跑，随后 git status）
+- `relevant_environment`：Asia/Shanghai 2026-11-15 23:40 左右；cwd=/workspace/jitu-henan-quanliang-fenxi；Python 3.13.5；pydantic 2.14.3；pytest 9.2.0；.venv/bin/python
+- `expected_result`：退出码 0，工作区保持干净，正式层与正式字典仍仅占位文件
+- `observed_result`：退出码 0，pytest 62 passed，git status 干净。
+- `exit_code_if_applicable`：0
+- `artifact_paths`：`data_interface/recognize.py`、`dictionary/candidates/`、本文件
+- `status`：PASS
+- `blocker_if_any`：（无）
