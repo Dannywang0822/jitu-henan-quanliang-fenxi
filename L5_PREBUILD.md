@@ -161,3 +161,28 @@ jitu-henan-quanliang-fenxi/
 
 2026-11-16（Asia/Shanghai）后续授权：仓库改为公开，GitHub Pages 仅发布 `h5/`。飞书登录、国内 CloudBase、正式层晋升仍未授权。
 2026-11-16 01:24（Asia/Shanghai）：Danny 要求撤掉在线链接。GitHub Pages 已关闭，部署工作流已删除，在线地址已失效。仓库仍为公开库。飞书登录、国内 CloudBase、正式层晋升仍未授权。
+
+## 2026-11-17 增量：经营管理流水线骨架
+
+2026-11-17（Asia/Shanghai）Danny 已亲口说「开工」。架构写入 `PIPELINE_DESIGN.md`。云资源尚未开通。本增量不改写上文已锁定规则正文，只增加本地骨架与检查。
+
+- BIND `task` := 经营管理流水线的设计与本地骨架：两路上传、对象存储接口、PostgreSQL 测试/正式 schema 的本地双、解析宽表、日/周/月与下个月测算、指定开通与审批。
+- BIND `success` := `checks/run.sh` 退出码 0；旧检查仍通过；新不变量被类型和测试卡住；合成夹具能跑通测试层闭环；正式层与正式字典仍空；证据在 `evidence/`。
+- BIND `scope` := 新增 `PIPELINE_DESIGN.md`、`storage/`、`warehouse/`、`ingest/`、`parse/`、`periods/`、`pipeline/`，并在 `access_control/` 补接口。允许改 `checks/run.sh` 以覆盖新不变量。H5 只增补 `H5_PAGE_SPEC.md`。
+- BIND `stop_when` := 需要开通或部署 CloudBase、COS、PostgreSQL 云实例或轻量服务器；购买云套餐；接飞书；把测试层结果写入正式层；提交经营明细或机密数字；大改现有 H5 页面。
+- KEEP 已有内核、三张汇总夹具和 `checks/` 里的旧判定继续通过。2026-11-08 与 2026-11-12 不得混为同一天。
+- KEEP 一条可回滚路径：本分支 git。未晋升前正式层仍空，可整段回退。
+
+本增量明确不做：开通「经营管理」CloudBase 环境（只在设计里与家校、家庭自用隔离）、购买套餐、登录云控制台、改现网、上线、真实登录、公开部署、自动晋升。
+
+新增目录（挂在第 1 层原目录之下，不替换原目录）：
+
+```
+storage/          # 对象存储接口与本地夹具；不连接 CloudBase / COS
+warehouse/        # PostgreSQL 测试/正式 schema；sqlite 内存双
+ingest/           # 两路上传、明细拒收、字典完全一致
+parse/            # 合并宽表；行级来源文件编号 + 部门；云函数形态
+periods/          # 日/周/月分面与下个月测算；正式层表面
+pipeline/         # 合成夹具闭环，供 checks/run.sh 调用
+access_control/   # 增补指定开通与审批；仍无登录、无飞书
+```

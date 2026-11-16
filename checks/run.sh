@@ -24,4 +24,6 @@ fi
 
 echo "[checks] 运行 pytest"
 "$PYTHON" -m pytest checks -q
+echo "[checks] 经营管理流水线骨架"
+"$PYTHON" -m pipeline.selfcheck
 echo "[checks] 全部通过"

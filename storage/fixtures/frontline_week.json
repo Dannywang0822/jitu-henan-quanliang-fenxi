@@ -1,0 +1,13 @@
+{
+  "file_id": "syn-front-week",
+  "lane": "基层原始底表",
+  "department": "营运",
+  "source_type": "假设",
+  "uploader_account_id": "acct-front-ops",
+  "columns": [
+    {"header": "周揽收件数", "unit": "票", "caliber": "当周"}
+  ],
+  "rows": [
+    {"as_of": "2026-11-06", "values": {"周揽收件数": "180"}}
+  ]
+}

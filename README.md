@@ -30,3 +30,7 @@
 - 不同日期的报表不得混为同一天；测试层写不进正式层。
 
 更完整的接口与门禁见 `TASK_CONTRACT.md`、`DECISION_HUB.md`、`FIELD_DICTIONARY.md`、`L5_PREBUILD.md`。
+
+## 经营管理流水线骨架
+
+2026-11-17（Asia/Shanghai）已点头开工，设计见 `PIPELINE_DESIGN.md`。仓库里是可离线验证的本地骨架：两路上传、对象存储接口、测试/正式库双、宽表解析、日/周/月与下个月测算。云资源尚未开通，没有部署，正式层仍空。检查入口不变，仍是 `./checks/run.sh`。

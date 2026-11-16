@@ -10,3 +10,7 @@ build/
 # 测试层待处理包（不要把上传内容提交进库）
 test_layer/inbox/**
 !test_layer/inbox/README.md
+
+# 本地库双只在内存里跑，不提交 sqlite 文件
+*.sqlite
+*.sqlite3

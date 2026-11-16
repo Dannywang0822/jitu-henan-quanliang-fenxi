@@ -1,0 +1,13 @@
+{
+  "file_id": "syn-analysis-mismatch",
+  "lane": "经营分析组汇总表",
+  "department": "财务",
+  "source_type": "假设",
+  "uploader_account_id": "acct-analysis-fin",
+  "columns": [
+    {"header": "成本_当日", "unit": "票", "caliber": "当日"}
+  ],
+  "rows": [
+    {"as_of": "2026-11-02", "values": {"成本_当日": "20"}}
+  ]
+}
