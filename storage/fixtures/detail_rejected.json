@@ -1,0 +1,14 @@
+{
+  "file_id": "syn-detail-001",
+  "lane": "基层原始底表",
+  "department": "营运",
+  "source_type": "假设",
+  "uploader_account_id": "acct-front-ops",
+  "columns": [
+    {"header": "运单号", "unit": "条", "caliber": "当日"},
+    {"header": "客户名单", "unit": "户", "caliber": "当日"},
+    {"header": "车辆轨迹", "unit": "条", "caliber": "当日"},
+    {"header": "薪酬明细", "unit": "元", "caliber": "当日"}
+  ],
+  "rows": []
+}

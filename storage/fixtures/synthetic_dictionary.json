@@ -1,0 +1,60 @@
+{
+  "note": "合成字典种子，只给本地骨架识别别名。不是正式字典，不含经营明细。",
+  "informal_mark": "测试，非正式",
+  "fields": [
+    {
+      "field_id": "揽收量_当日",
+      "standard_name": "揽收量_当日",
+      "aliases": ["揽收件数(票)", "收件量"],
+      "unit": "票",
+      "caliber": "当日",
+      "grain": "day",
+      "department": "营运"
+    },
+    {
+      "field_id": "揽收量_当周",
+      "standard_name": "揽收量_当周",
+      "aliases": ["周揽收件数"],
+      "unit": "票",
+      "caliber": "当周",
+      "grain": "week",
+      "department": "营运"
+    },
+    {
+      "field_id": "揽收量_当月",
+      "standard_name": "揽收量_当月",
+      "aliases": ["月揽收件数"],
+      "unit": "票",
+      "caliber": "当月",
+      "grain": "month",
+      "department": "营运"
+    },
+    {
+      "field_id": "成本_当日",
+      "standard_name": "成本_当日",
+      "aliases": ["当日成本元"],
+      "unit": "元",
+      "caliber": "当日",
+      "grain": "day",
+      "department": "财务"
+    },
+    {
+      "field_id": "成本_当周",
+      "standard_name": "成本_当周",
+      "aliases": ["周成本元"],
+      "unit": "元",
+      "caliber": "当周",
+      "grain": "week",
+      "department": "财务"
+    },
+    {
+      "field_id": "成本_当月",
+      "standard_name": "成本_当月",
+      "aliases": ["月成本元"],
+      "unit": "元",
+      "caliber": "当月",
+      "grain": "month",
+      "department": "财务"
+    }
+  ]
+}

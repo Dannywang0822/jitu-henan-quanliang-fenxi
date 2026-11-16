@@ -1,0 +1,13 @@
+{
+  "file_id": "syn-analysis-month",
+  "lane": "经营分析组汇总表",
+  "department": "财务",
+  "source_type": "假设",
+  "uploader_account_id": "acct-analysis-fin",
+  "columns": [
+    {"header": "月成本元", "unit": "元", "caliber": "当月"}
+  ],
+  "rows": [
+    {"as_of": "2026-11-20", "values": {"月成本元": "50"}}
+  ]
+}
